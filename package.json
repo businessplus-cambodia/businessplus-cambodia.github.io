@@ -1,0 +1,14 @@
+{
+  "name": "businessplus-cambodia.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build style/styles.css -o css/style.css  "
+  },
+  "repository": "git@github.com:businessplus-cambodia/businessplus-cambodia.github.io.git",
+  "author": "samdy <samdyrupp@gmail.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "tailwindcss": "^2.0.3"
+  }
+}
