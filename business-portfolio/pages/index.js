@@ -63,11 +63,21 @@ export default function Home() {
                               <br/>
                                   by nature
                           </h1>
-                          <a href="#" className="block px-4 py-3 mt-10 text-lg font-bold text-gray-800 uppercase bg-white rounded-lg hover:bg-gray-100">
+                          <a href="#" className="block  btn  mt-10 text-lg font-bold text-gray-800 uppercase border rounded-full hover:bg-gray-100">
                               Discover
                           </a>
                       </div>
                   </div>
+                  <div className="relative flex">
+                      <div className="absolute left-2/4 top-full">
+                         <div className=" space-x-10 object-bottom left-2/4 -ml-48 mt-72 ">
+                          <button className=""><a href="#" className="btn text-white bg-gray-900 inline-block">Custom Order</a></button>
+                          <button className=""><a href="#" className="btn bg-indigo-50 inline-block">What New</a></button>
+                         </div>
+                        <div>
+                        </div>
+                  </div>
+                </div>
               </div>
             </div>
          
@@ -128,7 +138,16 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
- 
+              </div>
+              <div className="section">
+                <div className="flex items-center justify-center min-h-full bg-blue-400"> 
+                  <div className="grid grid-cols-3">
+                     
+                    <div>
+
+                    </div>
+                  </div>
+                </div>
               </div>
            </ReactFullpage.Wrapper>
           

@@ -1,8 +1,15 @@
 
 @tailwind base;
 @tailwind components;
+
 @tailwind utilities;
 
+@layer components{
+  .btn{
+    @apply
+      rounded-full py-3 px-10 uppercase text-sm font-bold cursor-pointer tracking-normal
+  }
+}
 
 html,
 body {
