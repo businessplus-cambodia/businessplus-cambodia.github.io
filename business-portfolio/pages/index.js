@@ -78,23 +78,7 @@ export default function Home() {
                     <img src="/images/2.jpg" className="absolute object-cover w-full h-full"/>
                     <div className="absolute inset-0 bg-black opacity-25">
                     </div>
-                    <header className="absolute top-0 left-0 right-0 z-20">
-                        <nav className="container px-6 py-4 mx-auto md:px-12">
-                            <div className="items-center justify-between md:flex">
-                                <div className="flex items-center justify-between">
-                                    
-                                    <div className="md:hidden">
-                                        <button className="text-white focus:outline-none">
-                                            <svg className="w-12 h-12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                </path>
-                                            </svg>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </nav>
-                    </header>
+                    
                     <div className="container relative z-10 flex items-center px-6 py-32 mx-auto md:px-12 xl:py-40">
                         <div className="relative z-10 flex flex-col items-start lg:w-3/5 xl:w-2/5">
                             <span className="font-bold text-yellow-400 uppercase">
@@ -124,14 +108,7 @@ export default function Home() {
                         <nav className="container px-6 py-4 mx-auto md:px-12">
                             <div className="items-center justify-center md:flex">
                                 <div className="flex items-center justify-between">
-                                    <div className="md:hidden">
-                                        <button className="text-white focus:outline-none">
-                                            <svg className="w-12 h-12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                </path>
-                                            </svg>
-                                        </button>
-                                    </div>
+                                       
                                 </div>
                                 
                             </div>
