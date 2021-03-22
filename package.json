@@ -1,14 +1,21 @@
 {
-  "name": "businessplus-cambodia.github.io",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "business-portfolio",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "build": "tailwindcss build style/styles.css -o css/style.css  "
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export -o docs",
+    "deploy": "yarn export && echo 'businessplus.studio' >> docs/CNAME && touch docs/.nojekyll && git add ./docs && git commit -m \"chore(site): regen\" && git push origin main -f"
   },
-  "repository": "git@github.com:businessplus-cambodia/businessplus-cambodia.github.io.git",
-  "author": "samdy <samdyrupp@gmail.com>",
-  "license": "BSD-2-Clause",
   "dependencies": {
-    "tailwindcss": "^2.0.3"
+    "@fullpage/react-fullpage": "^0.1.19",
+    "autoprefixer": "^10.2.5",
+    "next": "10.0.9",
+    "postcss": "^8.2.8",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "tailwindcss": "^2.0.4"
   }
 }
